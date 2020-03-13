@@ -602,7 +602,7 @@ body {
 
 .range-label {
   margin: 0 auto;
-  width: 87%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -826,7 +826,10 @@ body {
 }
 
 .urgent-range:hover,
-.remove-button:hover {
+.remove-button:hover,
+.got-time:hover,
+.average:hover,
+.yesterday:hover {
   cursor: pointer;
 }
 
